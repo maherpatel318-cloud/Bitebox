@@ -1,0 +1,36 @@
+body{
+    border: 2px dotted black;
+}
+#div{
+    border: 1px solid red;
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin: 40px;
+    margin-bottom: 30px;
+}
+#div2{
+    border: 1px solid blue;
+    background-color: yellowgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin: 40px;
+    margin-bottom: 30px;
+    width: 200px;
+    margin: 30px auto;
+}
+
+#div3{
+    border: 1px solid green;
+    background-color: lightgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin: 40px;
+    margin-bottom: 30px;
+}
