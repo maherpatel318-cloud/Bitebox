@@ -28,10 +28,13 @@ ul{
     gap: 20px;
 }
 
+nav login{
+    background-color: red;
+    color: white;
+}
 a{
     text-decoration: none;
 }
 nav a:hover{
     color: red;
 }
-
