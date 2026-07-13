@@ -8,13 +8,11 @@
 nav{
     display: flex;
     justify-content: space-between;
-
     align-items: center;
     padding: 15px 40px;
     background-color: black;
-
-
 }
+
 nav a{
     text-decoration: none;
     color: white;
@@ -23,6 +21,7 @@ nav a{
 nav h2{
     color: white;
 }
+
 ul{
     display: flex;
     list-style: none;
@@ -32,6 +31,106 @@ ul{
 a{
     text-decoration: none;
 }
+
 nav a:hover{
     color: red;
 }
+
+nav li:last-child a{
+    padding: 6px 12px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+nav li:last-child a:hover{
+    background-color: red;
+    color: black;
+}
+
+nav a.active{
+    color: red;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
+.hero{
+    height: 90vh;
+    background: url("../images/banner.jpeg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.hero button:hover{
+background: darkred;
+}
+.video-section{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap:  40px;
+    /* background-color: black; */
+    
+}
+.video-text{
+    flex: 1;
+}
+.video-box{
+    flex: 1;
+}
+
+.video-box video{
+    width: 100%;
+    border-radius: 10px;
+}
+.video-text h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.video-text p{
+    font-size: 22px;
+    color:  #383838;
+    /* line-height: 1.6; */
+}
+.video-text button{
+    margin-top: 15px;
+    padding: 8px 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.about{
+    text-align: center;
+    padding: 60px 20px;
+    background: rgb(15, 15, 15);
+}
+
+.about h2{
+     font-size: 36px;
+     margin-bottom: 20px;
+     color: rgba(255, 0, 0, 0.615);
+}
+.about p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #3b3636;
+    line-height: 1.6;
+}
+
+
+
